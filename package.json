@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-include",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Includes a file as a string literal",
   "main": "lib/index.js",
   "scripts": {
