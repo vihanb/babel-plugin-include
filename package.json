@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-include",
+  "version": "0.0.1",
+  "description": "Includes a file as a string literal",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -d ./lib ./src",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihanb/babel-plugin-include.git"
+  },
+  "author": "Vihan B <vihan@vihan.org> (vihan.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vihanb/babel-plugin-include/issues"
+  },
+  "homepage": "https://github.com/vihanb/babel-plugin-include#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "diff": "^3.0.1"
+  }
+}
